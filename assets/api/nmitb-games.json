@@ -1,0 +1,692 @@
+{
+    "games": {
+        "skankovich": [ 
+            {
+                "id": "001",
+                "name": "L. Ron Howard",
+                "ska": false
+            },
+            {
+                "id": "002",
+                "name": "Hans Gruber and the Die Hards",
+                "ska": true
+            },
+            {
+                "id": "003",
+                "name": "Skabba the Hut",
+                "ska": true
+            },
+            {
+                "id": "004",
+                "name": "Cheese Please Denise",
+                "ska": false
+            },
+            {
+                "id": "005",
+                "name": "The Skashank Redemption",
+                "ska": true
+            },
+            {
+                "id": "006",
+                "name": "Wank",
+                "ska": true
+            },
+            {
+                "id": "007",
+                "name": "The Flux Skapacitors",
+                "ska": true
+            },
+            {
+                "id": "008",
+                "name": "Mephiskapheles",
+                "ska": true
+            },
+            {
+                "id": "009",
+                "name": "Abraskadabra",
+                "ska": true
+            },
+            {
+                "id": "010",
+                "name": "Ska Face",
+                "ska": true
+            },
+            {
+                "id": "011",
+                "name": "Skandal",
+                "ska": true
+            },
+            {
+                "id": "012",
+                "name": "Skazel Tov",
+                "ska": true
+            },
+            {
+                "id": "013",
+                "name": "Mimoska",
+                "ska": false
+            },
+            {
+                "id": "014",
+                "name": "Hoobaskank",
+                "ska": false
+            },
+            {
+                "id": "015",
+                "name": "Emily Skankhurst",
+                "ska": false
+            },
+            {
+                "id": "016",
+                "name": "Avril Skavigne",
+                "ska": false
+            },
+            {
+                "id": "017",
+                "name": "Jeffrey Skahmer",
+                "ska": false
+            },
+            {
+                "id": "018",
+                "name": "Dolly Skarton",
+                "ska": false
+            },
+            {
+                "id": "019",
+                "name": "Black Skabath",
+                "ska": false
+            },
+            {
+                "id": "020",
+                "name": "Skappository",
+                "ska": true
+            },
+            {
+                "id": "021",
+                "name": "Poop Tart",
+                "ska": true
+            },
+            {
+                "id": "022",
+                "name": "The Donald Trumpets",
+                "ska": true
+            },
+            {
+                "id": "023",
+                "name": "Skarotum",
+                "ska": true
+            },
+            {
+                "id": "024",
+                "name": "Ringo Ska",
+                "ska": true
+            },
+            {
+                "id": "025",
+                "name": "Skanker Sores ",
+                "ska": true
+            },
+            {
+                "id": "026",
+                "name": "Cobra Skammander",
+                "ska": true
+            },
+            {
+                "id": "027",
+                "name": "The Good Skamaritans",
+                "ska": true
+            },
+            {
+                "id": "028",
+                "name": "Ska Hum Bug",
+                "ska": true
+            },
+            {
+                "id": "029",
+                "name": "Skagina",
+                "ska": true
+            },
+            {
+                "id": "030",
+                "name": "Skali Baba & the 40oz Horns",
+                "ska": true
+            },
+            {
+                "id": "031",
+                "name": "Skanorreha & the Burning Sensations",
+                "ska": true
+            },
+            {
+                "id": "032",
+                "name": "Ska Trek: Deep Space Mime",
+                "ska": false
+            }
+        ],
+        "superNintemo": [
+            {
+                "name": "",
+                "emo": false
+            }
+        ],
+        "celebsHeight": [
+            {
+                "firstName": "Danny",
+                "lastName": "Devito",
+                "meters": 1.4732,
+                "feet": 4,
+                "inches": 10,
+                "image": ""
+            },
+            {
+                "firstName": "Taylor",
+                "lastName": "Swift",
+                "meters": 1.7653,
+                "feet": 5,
+                "inches": 11,
+                "image": ""
+            },
+            {
+                "firstName": "Larry",
+                "lastName": "David",
+                "meters": 1.8034,
+                "feet": 5,
+                "inches": 9.5,
+                "image": ""
+            },
+            {
+                "firstName": "Avril",
+                "lastName": "Lavigne",
+                "meters": 1.5621,
+                "feet": 5,
+                "inches": 1.5,
+                "image": ""
+            },
+            {
+                "firstName": "Tony",
+                "lastName": "Hawk",
+                "meters": 1.905,
+                "feet": 6,
+                "inches": 3,
+                "image": ""
+            }
+        ],
+        "whatsappAge": [
+            {
+                "id": "001",
+                "quote": "I just want to be the first Bake Off suicide",
+                "sender": "Thom",
+                "emo": false
+            },
+            {
+                "id": "002",
+                "quote": "All my friends are having kids, and here I am rolling joints on the baby changing table",
+                "sender": "Thom",
+                "emo": false
+            },
+            {
+                "id": "003",
+                "quote": "It smells like a mixture between petrol and dog shit",
+                "band": "Los Campesinos",
+                "song": "I Just Sighed. I Just Sighed, Just So You Know",
+                "emo": true
+            },
+            {
+                "id": "004",
+                "quote": "Is your friend Dom still here? I wanna buy some...y’know",
+                "band": "Cliffdiver",
+                "song": "Are You Still Seeing Graig, the Orthodontist?",
+                "emo": true
+            },
+            {
+                "id": "005",
+                "quote": "I wanna be like GG Allin",
+                "sender": "Andrew",
+                "emo": false
+            },
+            {
+                "id": "006",
+                "quote": "I am gonna make it through this year if it kills me",
+                "band": "The Mountain Goats",
+                "song": "This Year",
+                "emo": true
+            },
+            {
+                "id": "007",
+                "quote": "I'm sick of the things I do when I'm nervous. Like cleaning the oven or checking my tires",
+                "band": "Motion City Soundtrack",
+                "song": "Everything Is Alright",
+                "emo": true
+            },
+            {
+                "id": "008",
+                "quote": "I just need to borrow a belt from one of the boys",
+                "sender": "Thom",
+                "emo": false
+            },
+            {
+                "id": "009",
+                "quote": "Look at what Bring Me the Horizon did to this city",
+                "sender": "Andrew",
+                "emo": false
+            },
+            {
+                "id": "010",
+                "quote": "Love as dangerously as you want",
+                "sender": "Thom",
+                "emo": false
+            },
+            {
+                "id": "011",
+                "quote": "I took the first fucking chance to get out of town",
+                "band": "Iron Chic",
+                "song": " Every Town Has an Elm Street",
+                "emo": true
+            },
+            {
+                "id": "012",
+                "quote": "At least the fridge here works and the walls don't leak",
+                "band": "The Wonder Years",
+                "song": "Everything I Own Fits in this Backpack",
+                "emo": true
+            }
+        ],
+        "guessTheGraph": [
+            {
+                "blankGraph": "",
+                "graphType": "line",
+                "clue01": "Popularity of Band",
+                "clue02": "Cost of Merch",
+                "finalAxis": "Quality of Merch"
+            },
+            {
+                "blankGraph": "",
+                "graphType": "venn",
+                "clue01": "Ska",
+                "clue02": "Indie",
+                "finalAxis": "Classic Rock"
+            },
+            {
+                "blankGraph": "",
+                "graphType": "area",
+                "clue01": "Age",
+                "clue2": "Meters",
+                "finalAxis": "Distance from Stage"
+            }
+        ],
+        "nameThatTune": [
+            {
+                "id": "001",
+                "song": "Holiday",
+                "artist": "Green Day",
+                "length": "3:52",
+                "sound": "holiday.mp3"
+            },
+            {
+                "id": "002",
+                "song": "Dear Maria, Count Me In",
+                "artist": "All Time Low",
+                "length": "3:01",
+                "sound": "maria.mp3"
+            },
+            {
+                "id": "003",
+                "song": "Cute Without the 'E'",
+                "artist": "Taking Back Sunday",
+                "length": "3:32",
+                "sound": "cute.mp3"
+            },
+            {
+                "id": "004",
+                "song": "My Favourite Accident",
+                "artist": "Motion City Soundtrack",
+                "length": "3:18",
+                "sound": "accident.mp3"
+            },
+            {
+                "id": "005",
+                "song": "Sugar, We're Goin Down",
+                "artist": "Fall Out Boy",
+                "length": "3:47",
+                "sound": "sugar.mp3"
+            },
+            {
+                "id": "006",
+                "song": "Beating Heart Baby",
+                "artist": "Head Automatica",
+                "length": "3:23",
+                "sound": "beating.mp3"
+            },
+            {
+                "id": "007",
+                "song": "Take It Away",
+                "artist": "The Used",
+                "length": "3:37",
+                "sound": "take.mp3"
+            },
+            {
+                "id": "008",
+                "song": "Sorry You're Not a Winner",
+                "artist": "Enter Shikari",
+                "length": "4:13",
+                "sound": "sorry.mp3"
+            },
+            {
+                "id": "009",
+                "song": "Swing, Swing",
+                "artist": "All American Rejects",
+                "length": "3:53",
+                "sound": "swing.mp3"
+            },
+            {
+                "id": "010",
+                "song": "Girls Not Grey",
+                "artist": "AFI",
+                "length": "3:10",
+                "sound": "grey.mp3"
+            },
+            {
+                "id": "011",
+                "song": "Underclass Hero",
+                "artist": "Sum 41",
+                "length": "3:14",
+                "sound": "underclass.mp3"
+            },
+            {
+                "id": "012",
+                "song": "Way Away",
+                "artist": "Yellowcard",
+                "length": "3:22",
+                "sound": "wayaway.mp3"
+            }
+        ],
+        "emopinions": [
+            {
+              "id": "001",
+              "asker": "Andrew",
+              "question": "When does Andrew think American Football 'sold out'?",
+              "answers": {
+                "a": "After the first album because OG demos were better",
+                "b": "LP2",
+                "c": "The precise moment on LP3 he heard Hayley Williams pipe up",
+                "d": "LP3"
+              },
+              "correct": "c"
+            },
+            {
+              "id": "002",
+              "asker": "Andrew",
+              "question": "What did Andrew think the lyric from NFG's 'My Friend's Over You' was instead of 'I'm drunk off your kiss for another night in a row'?",
+              "answers": {
+                "a": "I'm drunk off vodka",
+                "b": "I've drunk all your piss",
+                "c": "Taylor is your sis",
+                "d": "That was a coat miss"
+              },
+              "correct": "a"
+            },
+            {
+              "id": "003",
+              "asker": "Andrew",
+              "question": "What does Andrew think of the band Neck Deep?",
+              "answers": {
+                "a": "Fucking terrible",
+                "b": "Fucking terrible although December sounds like the best song of all time when drunk",
+                "c": "Bloody love them",
+                "d": "Fucking terrible although actually December is a good song"
+              },
+              "correct": "b"
+            },
+            {
+              "id": "004",
+              "asker": "Andrew",
+              "question": "Who did Andrew compliment on a wonderful show at Leeds Cockpit 2006 and now regrets it somewhat but hey it was before the allegations...gimme a break?",
+              "answers": {
+                "a": "WiL Francis from Aiden",
+                "b": "Jesse Lacey from Brand New",
+                "c": "That dude from Front Porch Step",
+                "d": "Bill Cosby"
+              },
+              "correct": "a"
+            },
+            {
+                "id": "005",
+                "asker": "Thom",
+                "question": "Which band does Thom believe is superior?",
+                "answers": {
+                    "a": "Yellowcard",
+                    "b": "Jimmy Eat World",
+                    "c": "My Chemical Romance",
+                    "d": "Hellogoodbye"
+                },
+                "correct": "a"
+            },
+            {
+                "id": "006",
+                "asker": "Thom",
+                "question": "What emo performance did Thom deliver when he was 15?",
+                "answers": {
+                    "a": "Spoken word Fall Out Boy",
+                    "b": "The monolouges from Fight Club because he saw that Taking Back Sunday video",
+                    "c": "A unicycle routine to Sugarcult",
+                    "d": "A play inspired by Blink-182"
+                },
+                "correct": "c"
+            },
+            {
+                "id": "007",
+                "asker": "Thom",
+                "question": "What does Thom think the perfect song needs?",
+                "answers": {
+                    "a": "Sad lyrics",
+                    "b": "A shouty bit",
+                    "c": "Sick riffs",
+                    "d": "A point where the Yellowcard violinist would do a backflip"
+                },
+                "correct": "d"
+            },
+            {
+                "id": "008",
+                "asker": "Thom",
+                "question": "Who did Thom find most attractive when he was a teenager?",
+                "answers": {
+                    "a": "Gerard Way",
+                    "b": "Bert McCracken",
+                    "c": "Hayley Williams",
+                    "d": "Daria"
+                },
+                "correct": "b"
+            },
+            {
+                "id": "009",
+                "asker": "Thom",
+                "question": "Which cover song did Thom believe was the original version for the longest?",
+                "answers": {
+                    "a": "Smooth Criminal - Alien Ant Farm",
+                    "b": "Your Graduation - Stand Atlantic",
+                    "c": "Under Pressure - Jedward",
+                    "d": "Hit Me Baby One More Time - Bowling for Soup"
+                },
+                "correct": "a"
+            }
+          ],
+        "bantz182": [
+            {
+              "id": "001",
+              "question": "What is Mark going to start?",
+              "answers": {
+                "a": "A new band",
+                "b": "Brushing his teeth",
+                "c": "His own nudist colony",
+                "d": "A sexy World War 3"
+              },
+              "correct": "c"
+            },
+            {
+              "id": "002",
+              "question": "What year has Mark been hating Tom since?",
+              "answers": {
+                "a": "1975 - the year of Tom's birth",
+                "b": "1995 - The release of Cheshire Vat",
+                "c": "1992 - The year Blink formed",
+                "d": "1998 - The release of Shakespeare in Love"
+              },
+              "correct": "b"
+            },
+            {
+              "id": "003",
+              "question": "When does it sound like a big golf tournament",
+              "answers": {
+                "a": "When Tom gets done having sex",
+                "b": "When Tom pots the pink",
+                "c": "When Tom made out with Tiger Woods - the catalyst to Tiger's divorce",
+                "d": "When Tom nails a guitar solo"
+              },
+              "correct": "a"
+            },
+            {
+              "id": "004",
+              "question": "What does the shirt smell like?",
+              "answers": {
+                "a": "Tears & tissues",
+                "b": "Hustle, loyalty & respect",
+                "c": "Dog farts",
+                "d": "Blood & feces"
+              },
+              "correct": "d"
+            },
+            {
+              "id": "005",
+              "question": "What did somebody lose in the crowd?",
+              "answers": {
+                "a": "Their sense of smell",
+                "b": "Their atticus ruck sack",
+                "c": "Nose piercing",
+                "d": "A contact lens"
+              },
+              "correct": "d"
+            },
+            {
+              "id": "006",
+              "question": "How much will Mark pay Tom to piss his pants?",
+              "answers": {
+                "a": "$300",
+                "b": "$182",
+                "c": "$41",
+                "d": "$20"
+              },
+              "correct": "a"
+            },
+            {
+              "id": "007",
+              "question": "What does Mark wish",
+              "answers": {
+                "a": "Travis's virginity to be taken",
+                "b": "Tips from Green Day about how to play live shows",
+                "c": "Bass lessons",
+                "d": "More bands on tour so they can work less"
+              },
+              "correct": "c"
+            },
+            {
+                "id": "008",
+                "question": "What does the guy use his dick to pop?",
+                "answers": {
+                  "a": "4ft blister",
+                  "b": "99 Red Balloons",
+                  "c": "Bubblewrap",
+                  "d": "Champagne"
+                },
+                "correct": "a"
+              },
+              {
+                "id": "009",
+                "question": "What does he love to do?",
+                "answers": {
+                  "a": "See his wife and kids",
+                  "b": "He loves to do shit",
+                  "c": "Hide in the mini-golf windmill completely nude, like Homer and Marge",
+                  "d": "Paaaaaaarrrtttyyyy"
+                },
+                "correct": "b"
+              },
+              {
+                "id": "010",
+                "question": "What is Mark's middle name?",
+                "answers": {
+                  "a": "Karen",
+                  "b": "Allan",
+                  "c": "Rebecca",
+                  "d": "Mark"
+                },
+                "correct": "c"
+              },
+              {
+                "id": "011",
+                "question": "What does Mark have growing in his pants?",
+                "answers": {
+                  "a": "A wolverine",
+                  "b": "A cactus",
+                  "c": "Allegations",
+                  "d": "A marijuana plant"
+                },
+                "correct": "a"
+              },
+              {
+                "id": "012",
+                "question": "What would Mark do as a woman?",
+                "answers": {
+                  "a": "Campaign for equality",
+                  "b": "Seduce Tom",
+                  "c": "Go to the gynecologist",
+                  "d": "Touch his own boobs"
+                },
+                "correct": "c"
+              },
+              {
+                "id": "013",
+                "question": "How many times do they say fuck throughout the duration of the banter track?",
+                "answers": {
+                  "a": "18",
+                  "b": "23",
+                  "c": "29",
+                  "d": "31"
+                },
+                "correct": "a"
+              }
+              
+          ],
+        "wrestlemania": [
+            {
+                "id": "001",
+                "prompt": "Mae Young's Hand",
+                "wrestling": true
+            },
+            {
+                "id": "002",
+                "prompt": "Terry Funk no holds barred match in a B&Q",
+                "wrestling": false
+            },
+            {
+                "id": "003",
+                "prompt": "Shawn Michaels vs. God",
+                "wrestling": true
+            },
+            {
+                "id": "004",
+                "prompt": "All the boys on a big road trip, but they can't fit inside the car",
+                "wrestling": false
+            },
+            {
+                "id": "005",
+                "prompt": "Gobbledy Gooker",
+                "wrestling": true
+            },
+            {
+                "id": "006",
+                "prompt": "Montreal Screwjob",
+                "wrestling": true
+            }
+        ]
+          
+    }
+}

@@ -12,6 +12,18 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		46F631E12B9C21E30095A13D /* holiday.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46F631D52B9C21E30095A13D /* holiday.mp3 */; };
+		46F631E22B9C21E30095A13D /* sorry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46F631D62B9C21E30095A13D /* sorry.mp3 */; };
+		46F631E32B9C21E30095A13D /* grey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46F631D72B9C21E30095A13D /* grey.mp3 */; };
+		46F631E42B9C21E30095A13D /* swing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46F631D82B9C21E30095A13D /* swing.mp3 */; };
+		46F631E52B9C21E30095A13D /* wayaway.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46F631D92B9C21E30095A13D /* wayaway.mp3 */; };
+		46F631E62B9C21E30095A13D /* underclass.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46F631DA2B9C21E30095A13D /* underclass.mp3 */; };
+		46F631E72B9C21E30095A13D /* beating.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46F631DB2B9C21E30095A13D /* beating.mp3 */; };
+		46F631E82B9C21E30095A13D /* accident.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46F631DC2B9C21E30095A13D /* accident.mp3 */; };
+		46F631E92B9C21E30095A13D /* sugar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46F631DD2B9C21E30095A13D /* sugar.mp3 */; };
+		46F631EA2B9C21E30095A13D /* maria.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46F631DE2B9C21E30095A13D /* maria.mp3 */; };
+		46F631EB2B9C21E30095A13D /* cute.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46F631DF2B9C21E30095A13D /* cute.mp3 */; };
+		46F631EC2B9C21E30095A13D /* take.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46F631E02B9C21E30095A13D /* take.mp3 */; };
 		7699B88040F8A987B510C191 /* libPods-quizAint-quizAintTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-quizAint-quizAintTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -38,6 +50,18 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = quizAint/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-quizAint-quizAintTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-quizAint-quizAintTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-quizAint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quizAint.debug.xcconfig"; path = "Target Support Files/Pods-quizAint/Pods-quizAint.debug.xcconfig"; sourceTree = "<group>"; };
+		46F631D52B9C21E30095A13D /* holiday.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = holiday.mp3; path = ../../../Desktop/songs/holiday.mp3; sourceTree = "<group>"; };
+		46F631D62B9C21E30095A13D /* sorry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sorry.mp3; path = ../../../Desktop/songs/sorry.mp3; sourceTree = "<group>"; };
+		46F631D72B9C21E30095A13D /* grey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = grey.mp3; path = ../../../Desktop/songs/grey.mp3; sourceTree = "<group>"; };
+		46F631D82B9C21E30095A13D /* swing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = swing.mp3; path = ../../../Desktop/songs/swing.mp3; sourceTree = "<group>"; };
+		46F631D92B9C21E30095A13D /* wayaway.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = wayaway.mp3; path = ../../../Desktop/songs/wayaway.mp3; sourceTree = "<group>"; };
+		46F631DA2B9C21E30095A13D /* underclass.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = underclass.mp3; path = ../../../Desktop/songs/underclass.mp3; sourceTree = "<group>"; };
+		46F631DB2B9C21E30095A13D /* beating.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = beating.mp3; path = ../../../Desktop/songs/beating.mp3; sourceTree = "<group>"; };
+		46F631DC2B9C21E30095A13D /* accident.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = accident.mp3; path = ../../../Desktop/songs/accident.mp3; sourceTree = "<group>"; };
+		46F631DD2B9C21E30095A13D /* sugar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sugar.mp3; path = ../../../Desktop/songs/sugar.mp3; sourceTree = "<group>"; };
+		46F631DE2B9C21E30095A13D /* maria.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = maria.mp3; path = ../../../Desktop/songs/maria.mp3; sourceTree = "<group>"; };
+		46F631DF2B9C21E30095A13D /* cute.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cute.mp3; path = ../../../Desktop/songs/cute.mp3; sourceTree = "<group>"; };
+		46F631E02B9C21E30095A13D /* take.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = take.mp3; path = ../../../Desktop/songs/take.mp3; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-quizAint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quizAint.release.xcconfig"; path = "Target Support Files/Pods-quizAint/Pods-quizAint.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-quizAint-quizAintTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quizAint-quizAintTests.debug.xcconfig"; path = "Target Support Files/Pods-quizAint-quizAintTests/Pods-quizAint-quizAintTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-quizAint.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-quizAint.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +140,18 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				46F631D52B9C21E30095A13D /* holiday.mp3 */,
+				46F631DE2B9C21E30095A13D /* maria.mp3 */,
+				46F631DF2B9C21E30095A13D /* cute.mp3 */,
+				46F631DC2B9C21E30095A13D /* accident.mp3 */,
+				46F631DD2B9C21E30095A13D /* sugar.mp3 */,
+				46F631DB2B9C21E30095A13D /* beating.mp3 */,
+				46F631E02B9C21E30095A13D /* take.mp3 */,
+				46F631D62B9C21E30095A13D /* sorry.mp3 */,
+				46F631D82B9C21E30095A13D /* swing.mp3 */,
+				46F631D72B9C21E30095A13D /* grey.mp3 */,
+				46F631DA2B9C21E30095A13D /* underclass.mp3 */,
+				46F631D92B9C21E30095A13D /* wayaway.mp3 */,
 				13B07FAE1A68108700A75B9A /* quizAint */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* quizAintTests */,
@@ -241,8 +277,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46F631E72B9C21E30095A13D /* beating.mp3 in Resources */,
+				46F631E22B9C21E30095A13D /* sorry.mp3 in Resources */,
+				46F631EC2B9C21E30095A13D /* take.mp3 in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				46F631E82B9C21E30095A13D /* accident.mp3 in Resources */,
+				46F631E42B9C21E30095A13D /* swing.mp3 in Resources */,
+				46F631E32B9C21E30095A13D /* grey.mp3 in Resources */,
+				46F631E62B9C21E30095A13D /* underclass.mp3 in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				46F631E12B9C21E30095A13D /* holiday.mp3 in Resources */,
+				46F631EA2B9C21E30095A13D /* maria.mp3 in Resources */,
+				46F631E92B9C21E30095A13D /* sugar.mp3 in Resources */,
+				46F631E52B9C21E30095A13D /* wayaway.mp3 in Resources */,
+				46F631EB2B9C21E30095A13D /* cute.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,7 +592,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -572,6 +620,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
@@ -579,7 +628,13 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -616,7 +671,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -636,6 +691,7 @@
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
@@ -643,7 +699,13 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
