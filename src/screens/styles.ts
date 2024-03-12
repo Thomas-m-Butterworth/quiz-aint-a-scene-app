@@ -59,6 +59,6 @@ export const styles = StyleSheet.create({
     backgroundColor: colours.falseRed,
   },
   headerMenu: {
-    marginRight: 13,
+    marginLeft: 21,
   },
 });
