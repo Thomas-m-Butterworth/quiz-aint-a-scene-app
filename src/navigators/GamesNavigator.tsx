@@ -14,8 +14,42 @@ import {EmOpinionsScreen} from '@src/screens/EmOpinionsScreen';
 import {Bantz182Screen} from '@src/screens/Bantz182Screen';
 import {WrestleMania} from '@src/screens/WrestleMania';
 import {MenuIcon} from '@src/components/ui-library/MenuDrawer';
+import ScoreCard from '@src/components/ScoreCard';
+import {useTimerStore} from '@src/stores/timerStore';
+import {View} from 'react-native';
+import {H} from '@src/components/ui-library/TextStyles';
+import {TouchableOpacity} from 'react-native-gesture-handler';
+import {styles} from '@src/components/styles';
 
 const Tab = createBottomTabNavigator<RootStackParamList>();
+
+const Timer = () => {
+  const {countState, seconds, startTimer, pauseTimer, reset} = useTimerStore();
+  const minutes = Math.floor(seconds / 60);
+  const remainingSeconds = seconds % 60;
+
+  return (
+    <View style={styles.timer}>
+      <TouchableOpacity
+        onLongPress={reset}
+        onPress={countState === 'timing' ? pauseTimer : startTimer}>
+        <H variant="h5">{`${minutes}`}</H>
+        <H variant="h5">{`${
+          remainingSeconds < 10 ? `0${remainingSeconds}` : remainingSeconds
+        }`}</H>
+      </TouchableOpacity>
+    </View>
+  );
+};
+
+const OPTIONS = {
+  tabBarLabel: () => null,
+  headerLeft: MenuIcon,
+  headerTitle: ScoreCard,
+  headerRight: Timer,
+  headerTitleAlign: 'center' as 'center',
+  headerStyle: {height: 85},
+};
 
 export const GamesNavigator = () => (
   <Tab.Navigator>
@@ -26,8 +60,7 @@ export const GamesNavigator = () => (
       options={({route}) => ({
         title: route.params.name,
         tabBarIcon: OpinionIcon,
-        tabBarLabel: () => null,
-        headerRight: MenuIcon,
+        ...OPTIONS,
       })}
     />
     <Tab.Screen
@@ -37,8 +70,7 @@ export const GamesNavigator = () => (
       options={({route}) => ({
         title: route.params.name,
         tabBarIcon: TuneIcon,
-        tabBarLabel: () => null,
-        headerRight: MenuIcon,
+        ...OPTIONS,
       })}
     />
     <Tab.Screen
@@ -48,8 +80,7 @@ export const GamesNavigator = () => (
       options={({route}) => ({
         title: route.params.name,
         tabBarIcon: BlinkIcon,
-        tabBarLabel: () => null,
-        headerRight: MenuIcon,
+        ...OPTIONS,
       })}
     />
     <Tab.Screen
@@ -59,8 +90,7 @@ export const GamesNavigator = () => (
       options={({route}) => ({
         title: route.params.name,
         tabBarIcon: WhatsAppIcon,
-        tabBarLabel: () => null,
-        headerRight: MenuIcon,
+        ...OPTIONS,
       })}
     />
     <Tab.Screen
@@ -70,8 +100,7 @@ export const GamesNavigator = () => (
       options={({route}) => ({
         title: route.params.name,
         tabBarIcon: WrestleIcon,
-        tabBarLabel: () => null,
-        headerRight: MenuIcon,
+        ...OPTIONS,
       })}
     />
     <Tab.Screen
@@ -83,8 +112,7 @@ export const GamesNavigator = () => (
       options={({route}) => ({
         title: route.params.name,
         tabBarIcon: SkaIcon,
-        tabBarLabel: () => null,
-        headerRight: MenuIcon,
+        ...OPTIONS,
       })}
     />
   </Tab.Navigator>

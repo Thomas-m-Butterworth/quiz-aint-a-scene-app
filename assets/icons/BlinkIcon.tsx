@@ -11,4 +11,4 @@ const XML = `
 </svg>
 `;
 
-export default (): ReactElement => <SvgXml xml={XML} width={15} height={15} />;
+export default (): ReactElement => <SvgXml xml={XML} width={30} height={30} />;
