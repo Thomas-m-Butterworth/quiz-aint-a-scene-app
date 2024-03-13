@@ -30,7 +30,7 @@ export const styles = StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    marginRight: 13,
+    marginRight: 21,
   },
 });
 

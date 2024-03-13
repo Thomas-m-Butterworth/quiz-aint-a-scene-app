@@ -15,32 +15,9 @@ import {Bantz182Screen} from '@src/screens/Bantz182Screen';
 import {WrestleMania} from '@src/screens/WrestleMania';
 import {MenuIcon} from '@src/components/ui-library/MenuDrawer';
 import ScoreCard from '@src/components/ScoreCard';
-import {useTimerStore} from '@src/stores/timerStore';
-import {View} from 'react-native';
-import {H} from '@src/components/ui-library/TextStyles';
-import {TouchableOpacity} from 'react-native-gesture-handler';
-import {styles} from '@src/components/styles';
+import {Timer} from '@src/components/ui-library/Timer';
 
 const Tab = createBottomTabNavigator<RootStackParamList>();
-
-const Timer = () => {
-  const {countState, seconds, startTimer, pauseTimer, reset} = useTimerStore();
-  const minutes = Math.floor(seconds / 60);
-  const remainingSeconds = seconds % 60;
-
-  return (
-    <View style={styles.timer}>
-      <TouchableOpacity
-        onLongPress={reset}
-        onPress={countState === 'timing' ? pauseTimer : startTimer}>
-        <H variant="h5">{`${minutes}`}</H>
-        <H variant="h5">{`${
-          remainingSeconds < 10 ? `0${remainingSeconds}` : remainingSeconds
-        }`}</H>
-      </TouchableOpacity>
-    </View>
-  );
-};
 
 const OPTIONS = {
   tabBarLabel: () => null,
