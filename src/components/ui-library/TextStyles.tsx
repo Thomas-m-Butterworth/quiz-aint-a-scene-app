@@ -12,7 +12,7 @@ interface PProps {
 interface HProps {
   style?: StyleProp<TextStyle>;
   children?: ReactNode;
-  variant?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5';
+  variant?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'warning';
 }
 export const P: React.FC<PProps> = ({style, variant, ...props}) => {
   const fontSizeStyle = usePFontSize(variant);

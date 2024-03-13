@@ -9,8 +9,10 @@ type TimerState = {
   countState: 'timing' | 'paused';
 };
 
+const secondsDefault = 3300;
+
 export const useTimerStore = create<TimerState>(set => ({
-  seconds: 3300,
+  seconds: secondsDefault,
   intervalId: null,
   countState: 'paused',
   startTimer: () =>
@@ -22,6 +24,7 @@ export const useTimerStore = create<TimerState>(set => ({
         ...store,
         countState: 'timing',
         intervalId: setInterval(() => {
+          // eslint-disable-next-line @typescript-eslint/no-shadow
           set(store => ({...store, seconds: store.seconds - 1}));
         }, 1000),
       };
@@ -33,5 +36,5 @@ export const useTimerStore = create<TimerState>(set => ({
       }
       return {...store, countState: 'paused', intervalId: null};
     }),
-  reset: () => set({seconds: 3300, intervalId: null}),
+  reset: () => set({seconds: secondsDefault, intervalId: null}),
 }));

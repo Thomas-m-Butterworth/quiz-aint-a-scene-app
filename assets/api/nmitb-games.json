@@ -1,6 +1,6 @@
 {
     "games": {
-        "skankovich": [ 
+        "skankovich": [
             {
                 "id": "001",
                 "name": "L. Ron Howard",
@@ -288,6 +288,12 @@
                 "band": "The Wonder Years",
                 "song": "Everything I Own Fits in this Backpack",
                 "emo": true
+            },
+            {
+                "id": "013",
+                "quote": "Everything's Speed with Keanue Reeves",
+                "sender": "Thom",
+                "emo": false
             }
         ],
         "guessTheGraph": [
@@ -401,52 +407,52 @@
         ],
         "emopinions": [
             {
-              "id": "001",
-              "asker": "Andrew",
-              "question": "When does Andrew think American Football 'sold out'?",
-              "answers": {
-                "a": "After the first album because OG demos were better",
-                "b": "LP2",
-                "c": "The precise moment on LP3 he heard Hayley Williams pipe up",
-                "d": "LP3"
-              },
-              "correct": "c"
+                "id": "001",
+                "asker": "Andrew",
+                "question": "When does Andrew think American Football 'sold out'?",
+                "answers": {
+                    "a": "After the first album because OG demos were better",
+                    "b": "LP2",
+                    "c": "The precise moment on LP3 he heard Hayley Williams pipe up",
+                    "d": "LP3"
+                },
+                "correct": "c"
             },
             {
-              "id": "002",
-              "asker": "Andrew",
-              "question": "What did Andrew think the lyric from NFG's 'My Friend's Over You' was instead of 'I'm drunk off your kiss for another night in a row'?",
-              "answers": {
-                "a": "I'm drunk off vodka",
-                "b": "I've drunk all your piss",
-                "c": "Taylor is your sis",
-                "d": "That was a coat miss"
-              },
-              "correct": "a"
+                "id": "002",
+                "asker": "Andrew",
+                "question": "What did Andrew think the lyric from NFG's 'My Friend's Over You' was instead of 'I'm drunk off your kiss for another night in a row'?",
+                "answers": {
+                    "a": "I'm drunk off vodka",
+                    "b": "I've drunk all your piss",
+                    "c": "Taylor is your sis",
+                    "d": "That was a coat miss"
+                },
+                "correct": "a"
             },
             {
-              "id": "003",
-              "asker": "Andrew",
-              "question": "What does Andrew think of the band Neck Deep?",
-              "answers": {
-                "a": "Fucking terrible",
-                "b": "Fucking terrible although December sounds like the best song of all time when drunk",
-                "c": "Bloody love them",
-                "d": "Fucking terrible although actually December is a good song"
-              },
-              "correct": "b"
+                "id": "003",
+                "asker": "Andrew",
+                "question": "What does Andrew think of the band Neck Deep?",
+                "answers": {
+                    "a": "Fucking terrible",
+                    "b": "Fucking terrible although December sounds like the best song of all time when drunk",
+                    "c": "Bloody love them",
+                    "d": "Fucking terrible although actually December is a good song"
+                },
+                "correct": "b"
             },
             {
-              "id": "004",
-              "asker": "Andrew",
-              "question": "Who did Andrew compliment on a wonderful show at Leeds Cockpit 2006 and now regrets it somewhat but hey it was before the allegations...gimme a break?",
-              "answers": {
-                "a": "WiL Francis from Aiden",
-                "b": "Jesse Lacey from Brand New",
-                "c": "That dude from Front Porch Step",
-                "d": "Bill Cosby"
-              },
-              "correct": "a"
+                "id": "004",
+                "asker": "Andrew",
+                "question": "Who did Andrew compliment on a wonderful show at Leeds Cockpit 2006 and now regrets it somewhat but hey it was before the allegations...gimme a break?",
+                "answers": {
+                    "a": "WiL Francis from Aiden",
+                    "b": "Jesse Lacey from Brand New",
+                    "c": "That dude from Front Porch Step",
+                    "d": "Bill Cosby"
+                },
+                "correct": "a"
             },
             {
                 "id": "005",
@@ -508,153 +514,152 @@
                 },
                 "correct": "a"
             }
-          ],
+        ],
         "bantz182": [
             {
-              "id": "001",
-              "question": "What is Mark going to start?",
-              "answers": {
-                "a": "A new band",
-                "b": "Brushing his teeth",
-                "c": "His own nudist colony",
-                "d": "A sexy World War 3"
-              },
-              "correct": "c"
+                "id": "001",
+                "question": "What is Mark going to start?",
+                "answers": {
+                    "a": "A new band",
+                    "b": "Brushing his teeth",
+                    "c": "His own nudist colony",
+                    "d": "A sexy World War 3"
+                },
+                "correct": "c"
             },
             {
-              "id": "002",
-              "question": "What year has Mark been hating Tom since?",
-              "answers": {
-                "a": "1975 - the year of Tom's birth",
-                "b": "1995 - The release of Cheshire Vat",
-                "c": "1992 - The year Blink formed",
-                "d": "1998 - The release of Shakespeare in Love"
-              },
-              "correct": "b"
+                "id": "002",
+                "question": "What year has Mark been hating Tom since?",
+                "answers": {
+                    "a": "1975 - the year of Tom's birth",
+                    "b": "1995 - The release of Cheshire Vat",
+                    "c": "1992 - The year Blink formed",
+                    "d": "1998 - The release of Shakespeare in Love"
+                },
+                "correct": "b"
             },
             {
-              "id": "003",
-              "question": "When does it sound like a big golf tournament",
-              "answers": {
-                "a": "When Tom gets done having sex",
-                "b": "When Tom pots the pink",
-                "c": "When Tom made out with Tiger Woods - the catalyst to Tiger's divorce",
-                "d": "When Tom nails a guitar solo"
-              },
-              "correct": "a"
+                "id": "003",
+                "question": "When does it sound like a big golf tournament",
+                "answers": {
+                    "a": "When Tom gets done having sex",
+                    "b": "When Tom pots the pink",
+                    "c": "When Tom made out with Tiger Woods - the catalyst to Tiger's divorce",
+                    "d": "When Tom nails a guitar solo"
+                },
+                "correct": "a"
             },
             {
-              "id": "004",
-              "question": "What does the shirt smell like?",
-              "answers": {
-                "a": "Tears & tissues",
-                "b": "Hustle, loyalty & respect",
-                "c": "Dog farts",
-                "d": "Blood & feces"
-              },
-              "correct": "d"
+                "id": "004",
+                "question": "What does the shirt smell like?",
+                "answers": {
+                    "a": "Tears & tissues",
+                    "b": "Hustle, loyalty & respect",
+                    "c": "Dog farts",
+                    "d": "Blood & feces"
+                },
+                "correct": "d"
             },
             {
-              "id": "005",
-              "question": "What did somebody lose in the crowd?",
-              "answers": {
-                "a": "Their sense of smell",
-                "b": "Their atticus ruck sack",
-                "c": "Nose piercing",
-                "d": "A contact lens"
-              },
-              "correct": "d"
+                "id": "005",
+                "question": "What did somebody lose in the crowd?",
+                "answers": {
+                    "a": "Their sense of smell",
+                    "b": "Their atticus ruck sack",
+                    "c": "Nose piercing",
+                    "d": "A contact lens"
+                },
+                "correct": "d"
             },
             {
-              "id": "006",
-              "question": "How much will Mark pay Tom to piss his pants?",
-              "answers": {
-                "a": "$300",
-                "b": "$182",
-                "c": "$41",
-                "d": "$20"
-              },
-              "correct": "a"
+                "id": "006",
+                "question": "How much will Mark pay Tom to piss his pants?",
+                "answers": {
+                    "a": "$300",
+                    "b": "$182",
+                    "c": "$41",
+                    "d": "$20"
+                },
+                "correct": "a"
             },
             {
-              "id": "007",
-              "question": "What does Mark wish",
-              "answers": {
-                "a": "Travis's virginity to be taken",
-                "b": "Tips from Green Day about how to play live shows",
-                "c": "Bass lessons",
-                "d": "More bands on tour so they can work less"
-              },
-              "correct": "c"
+                "id": "007",
+                "question": "What does Mark wish",
+                "answers": {
+                    "a": "Travis's virginity to be taken",
+                    "b": "Tips from Green Day about how to play live shows",
+                    "c": "Bass lessons",
+                    "d": "More bands on tour so they can work less"
+                },
+                "correct": "c"
             },
             {
                 "id": "008",
                 "question": "What does the guy use his dick to pop?",
                 "answers": {
-                  "a": "4ft blister",
-                  "b": "99 Red Balloons",
-                  "c": "Bubblewrap",
-                  "d": "Champagne"
+                    "a": "4ft blister",
+                    "b": "99 Red Balloons",
+                    "c": "Bubblewrap",
+                    "d": "Champagne"
                 },
                 "correct": "a"
-              },
-              {
+            },
+            {
                 "id": "009",
                 "question": "What does he love to do?",
                 "answers": {
-                  "a": "See his wife and kids",
-                  "b": "He loves to do shit",
-                  "c": "Hide in the mini-golf windmill completely nude, like Homer and Marge",
-                  "d": "Paaaaaaarrrtttyyyy"
+                    "a": "See his wife and kids",
+                    "b": "He loves to do shit",
+                    "c": "Hide in the mini-golf windmill completely nude, like Homer and Marge",
+                    "d": "Paaaaaaarrrtttyyyy"
                 },
                 "correct": "b"
-              },
-              {
+            },
+            {
                 "id": "010",
                 "question": "What is Mark's middle name?",
                 "answers": {
-                  "a": "Karen",
-                  "b": "Allan",
-                  "c": "Rebecca",
-                  "d": "Mark"
+                    "a": "Karen",
+                    "b": "Allan",
+                    "c": "Rebecca",
+                    "d": "Mark"
                 },
                 "correct": "c"
-              },
-              {
+            },
+            {
                 "id": "011",
                 "question": "What does Mark have growing in his pants?",
                 "answers": {
-                  "a": "A wolverine",
-                  "b": "A cactus",
-                  "c": "Allegations",
-                  "d": "A marijuana plant"
+                    "a": "A wolverine",
+                    "b": "A cactus",
+                    "c": "Allegations",
+                    "d": "A marijuana plant"
                 },
                 "correct": "a"
-              },
-              {
+            },
+            {
                 "id": "012",
                 "question": "What would Mark do as a woman?",
                 "answers": {
-                  "a": "Campaign for equality",
-                  "b": "Seduce Tom",
-                  "c": "Go to the gynecologist",
-                  "d": "Touch his own boobs"
+                    "a": "Campaign for equality",
+                    "b": "Seduce Tom",
+                    "c": "Go to the gynecologist",
+                    "d": "Touch his own boobs"
                 },
                 "correct": "c"
-              },
-              {
+            },
+            {
                 "id": "013",
                 "question": "How many times do they say fuck throughout the duration of the banter track?",
                 "answers": {
-                  "a": "18",
-                  "b": "23",
-                  "c": "29",
-                  "d": "31"
+                    "a": "18",
+                    "b": "23",
+                    "c": "29",
+                    "d": "31"
                 },
                 "correct": "a"
-              }
-              
-          ],
+            }
+        ],
         "wrestlemania": [
             {
                 "id": "001",
@@ -685,8 +690,19 @@
                 "id": "006",
                 "prompt": "Montreal Screwjob",
                 "wrestling": true
+            },
+            {
+                "id": "007",
+                "prompt": "Nipple on a pole match",
+                "wrestling": false
+            }
+        ],
+        "daylist": [
+            {
+                "id": "001",
+                "title": "LoiFi Jams to make toast in the bath to",
+                "playlist": false
             }
         ]
-          
     }
 }
