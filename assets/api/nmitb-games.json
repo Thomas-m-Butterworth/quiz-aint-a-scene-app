@@ -160,11 +160,72 @@
                 "id": "032",
                 "name": "Ska Trek: Deep Space Mime",
                 "ska": false
+            },
+            {
+                "id": "033",
+                "name": "Raw Dawg and the Cronch",
+                "ska": false
+            },
+            {
+                "id": "034",
+                "name": "Tracy Chapman's Fast Ska",
+                "ska": false
             }
         ],
         "superNintemo": [
             {
-                "name": "",
+                "id": "001",
+                "name": "3 Ninjas Kick Back",
+                "emo": false
+            },
+            {
+                "id": "002",
+                "name": "Aim for the Ace!",
+                "emo": false
+            },
+            {
+                "id": "003",
+                "name": "Araiguma Rascal",
+                "emo": false
+            },
+            {
+                "id": "004",
+                "name": "Ardy Lightfoot",
+                "emo": false
+            },
+            {
+                "id": "005",
+                "name": "Art of Fighting",
+                "emo": false
+            },
+            {
+                "id": "006",
+                "name": "Bastard!!: Ankoku no Hakain-shin",
+                "emo": false
+            },
+            {
+                "id": "007",
+                "name": "Battle Blaze",
+                "emo": false
+            },
+            {
+                "id": "008",
+                "name": "Bazooka Blitzrieg",
+                "emo": false
+            },
+            {
+                "id": "009",
+                "name": "Brain Lord",
+                "emo": false
+            },
+            {
+                "id": "010",
+                "name": "Cannon Fodder",
+                "emo": false
+            },
+            {
+                "id": "011",
+                "name": "Cosmo Gang the Video",
                 "emo": false
             }
         ],
@@ -700,8 +761,43 @@
         "daylist": [
             {
                 "id": "001",
-                "title": "LoiFi Jams to make toast in the bath to",
+                "title": "LoiFi Jams to Make Toast in a Friday Night Bath",
                 "playlist": false
+            },
+            {
+                "id": "002",
+                "title": "Anti-Depression Farm Wednesday",
+                "playlist": true
+            },
+            {
+                "id": "003",
+                "title": "Basslines Trumpet Tuesday Afternoon",
+                "playlist": true
+            },
+            {
+                "id": "003",
+                "title": "Emo-Adjacent Superstar Afternoon",
+                "playlist": true
+            },
+            {
+                "id": "004",
+                "title": "Nostalgia MC Thursday",
+                "playlist": true
+            },
+            {
+                "id": "005",
+                "title": "Cynical Underground Wednesday Late Night",
+                "playlist": true
+            },
+            {
+                "id": "006",
+                "title": "Sleepy Weepy Post-Emo Tuesday Afternoon",
+                "playlist": true
+            },
+            {
+                "id": "007",
+                "title": "Alone Pop Punk Saturday Evening",
+                "playlist": true
             }
         ]
     }
