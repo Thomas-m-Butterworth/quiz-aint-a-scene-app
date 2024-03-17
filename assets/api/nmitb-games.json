@@ -651,6 +651,13 @@
                 "band": "The Wonder Years",
                 "song": "There, There",
                 "emo": true
+            },
+            {
+                "id": "030",
+                "quote": "Hey, that's a really good idea. As a matter of fact, it's brilliant",
+                "band": "Origami Angel",
+                "song": "Find Your Throne",
+                "emo": true
             }
         ],
         "guessTheGraph": [
