@@ -170,6 +170,96 @@
                 "id": "034",
                 "name": "Tracy Chapman's Fast Ska",
                 "ska": false
+            },
+            {
+                "id": "035",
+                "name": "Battleska Galactica",
+                "ska": true
+            },
+            {
+                "id": "036",
+                "name": "Skatune Network",
+                "ska": true
+            },
+            {
+                "id": "037",
+                "name": "Baked Ala-Ska",
+                "ska": true
+            },
+            {
+                "id": "038",
+                "name": "Skamakaze",
+                "ska": true
+            },
+            {
+                "id": "039",
+                "name": "Big Dog & the Boys",
+                "ska": false
+            },
+            {
+                "id": "040",
+                "name": "Ska Skank Redemption",
+                "ska": true
+            },
+            {
+                "id": "041",
+                "name": "The Two Tone Boners",
+                "ska": true
+            },
+            {
+                "id": "042",
+                "name": "Ringo Ska",
+                "ska": true
+            },
+            {
+                "id": "043",
+                "name": "Captain Chewie & the Space Skadets",
+                "ska": true
+            },
+            {
+                "id": "044",
+                "name": "Aunt Suzanne's Tampon",
+                "ska": true
+            },
+            {
+                "id": "045",
+                "name": "Bill Skasby",
+                "ska": true
+            },
+            {
+                "id": "046",
+                "name": "Skarianne Grande",
+                "ska": false
+            },
+            {
+                "id": "047",
+                "name": "Lil Ska X",
+                "ska": false
+            },
+            {
+                "id": "048",
+                "name": "Simon & Skafunkel",
+                "ska": false
+            },
+            {
+                "id": "049",
+                "name": "Skanereal Disease",
+                "ska": true
+            },
+            {
+                "id": "050",
+                "name": "The Houses of Skaliment",
+                "ska": false
+            },
+            {
+                "id": "051",
+                "name": "Fandangle",
+                "ska": true
+            },
+            {
+                "id": "052",
+                "name": "Fandango",
+                "ska": false
             }
         ],
         "superNintemo": [
@@ -226,6 +316,102 @@
             {
                 "id": "011",
                 "name": "Cosmo Gang the Video",
+                "emo": false
+            },
+            {
+                "id": "012",
+                "name": "impossible game",
+                "band": "Oso Oso",
+                "emo": true
+            },
+            {
+                "id": "013",
+                "name": "The Prototype of the Ultimate Lifeform",
+                "band": "Prince Daddy and the Hyena",
+                "emo": true
+            },
+            {
+                "id": "014",
+                "name": "Armageddon Now",
+                "band": "Teenage Halloween",
+                "emo": true
+            },
+            {
+                "id": "015",
+                "name": "Mach Bike",
+                "band": "Origami Angel",
+                "emo": true
+            },
+            {
+                "id": "016",
+                "name": "New Vegas Bomb",
+                "band": "Cliffdiver",
+                "emo": true
+            },
+            {
+                "id": "017",
+                "name": "Devastator",
+                "band": "Johnny Foreigner",
+                "emo": true
+            },
+            {
+                "id": "018",
+                "name": "Ignition & Friction",
+                "band": "Transit",
+                "emo": true
+            },
+            {
+                "id": "019",
+                "name": "Ghost to Coast",
+                "band": "Fake Problems",
+                "emo": true
+            },
+            {
+                "id": "020",
+                "name": "Awesome Kingdom",
+                "band": "Pet Symmetry",
+                "emo": true
+            },
+            {
+                "id": "021",
+                "name": "Daze Before Christmas",
+                "emo": false
+            },
+            {
+                "id": "021",
+                "name": "Dream TV",
+                "emo": false
+            },
+            {
+                "id": "022",
+                "name": "Eek! The Cat",
+                "emo": false
+            },
+            {
+                "id": "023",
+                "name": "Faceball 2000",
+                "emo": false
+            },
+            {
+                "id": "024",
+                "name": "Final Fight Guy",
+                "emo": false
+            },
+            {
+                "id": "025",
+                "name": "Goof Troop",
+                "emo": false
+            },
+            {
+                "id": "026",
+                "name": "ROM Hack",
+                "band": "Origami Angel",
+                "emo": true
+            },
+            {
+                "id": "027",
+                "name": "Kobayashi Maru",
+                "band": "Origami Angel",
                 "emo": false
             }
         ],
@@ -355,6 +541,116 @@
                 "quote": "Everything's Speed with Keanue Reeves",
                 "sender": "Thom",
                 "emo": false
+            },
+            {
+                "id": "014",
+                "quote": "Stuck in a room full of people, too anxious to mingle",
+                "band": "Free Throw",
+                "song": "The Corner's Dilemma",
+                "emo": true
+            },
+            {
+                "id": "015",
+                "quote": "It's just poor self-care and a few bad habits",
+                "band": "Harrison Gordon",
+                "song": "BLEACH",
+                "emo": true
+            },
+            {
+                "id": "015",
+                "quote": "My body made it to 33, brain stopped at 22",
+                "band": "Cliffdiver",
+                "song": "New Vegas Bomb",
+                "emo": true
+            },
+            {
+                "id": "016",
+                "quote": "Let's just smoke a bowl and talk about this later",
+                "band": "Mom Jeans",
+                "song": "you can't eat cats kevin",
+                "emo": true
+            },
+            {
+                "id": "017",
+                "quote": "I just want to watch The Office and turn in early",
+                "band": "Mom Jeans",
+                "song": "you can't eat cats kevin",
+                "emo": true
+            },
+            {
+                "id": "018",
+                "quote": "Well I'd rather spend all my time alone, rot away in bed and watch the same three shows",
+                "band": "Harrison Gordon",
+                "song": "BLEACH",
+                "emo": true
+            },
+            {
+                "id": "019",
+                "quote": "Something to stick on posters",
+                "sender": "Andrew",
+                "emo": false
+            },
+            {
+                "id": "020",
+                "quote": "I might stay at home, because I'm full of the aches",
+                "sender": "Thom",
+                "emo": false
+            },
+            {
+                "id": "021",
+                "quote": "Just my swing dancing class, or, y'know...no",
+                "sender": "Andrew",
+                "emo": false
+            },
+            {
+                "id": "022",
+                "quote": "Far too hungover to deal with this shite",
+                "sender": "Andrew",
+                "emo": false
+            },
+            {
+                "id": "023",
+                "quote": "Nice rooms aren’t punk rock",
+                "sender": "Andrew",
+                "emo": false
+            },
+            {
+                "id": "024",
+                "quote": "I could find plenty of rooms but I can't promise they'll be nice",
+                "sender": "Thom",
+                "emo": false
+            },
+            {
+                "id": "025",
+                "quote": "I just want to sell out my funeral",
+                "song": "I Just Want To Sell Out My Funeral",
+                "band": "The Wonder Years",
+                "emo": true
+            },
+            {
+                "id": "026",
+                "quote": "I'm going to haunt anyone who doesn't cry at my funeral",
+                "sender": "Thom",
+                "emo": false
+            },
+            {
+                "id": "027",
+                "quote": "The nostalgic value is ingrained in my soul",
+                "sender": "Andrew",
+                "emo": false
+            },
+            {
+                "id": "028",
+                "quote": "Don't wanna sleep, just give coffee and codeine",
+                "band": "Brutalligators",
+                "emo": true
+            },
+            {
+                "id": "029",
+                "quote": "I'm sorry I don't laugh at the right times",
+                "band": "The Wonder Years",
+                "song": "There, There",
+                "emo": true
             }
         ],
         "guessTheGraph": [
@@ -378,6 +674,13 @@
                 "clue01": "Age",
                 "clue2": "Meters",
                 "finalAxis": "Distance from Stage"
+            },
+            {
+                "blankGraph": "",
+                "graphType": "line",
+                "clue01": "Age",
+                "clue2": "Time",
+                "finalAxis": "Arrival to gig"
             }
         ],
         "nameThatTune": [
@@ -569,7 +872,7 @@
                 "question": "Which cover song did Thom believe was the original version for the longest?",
                 "answers": {
                     "a": "Smooth Criminal - Alien Ant Farm",
-                    "b": "Your Graduation - Stand Atlantic",
+                    "b": "The Boys of Summer - The Ataris",
                     "c": "Under Pressure - Jedward",
                     "d": "Hit Me Baby One More Time - Bowling for Soup"
                 },
