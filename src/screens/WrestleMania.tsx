@@ -1,33 +1,22 @@
 import React, {useState} from 'react';
 import {FlatList, SafeAreaView, StyleSheet, View} from 'react-native';
-import gamesData from '@assets/api/nmitb-games.json';
 import {TouchableOpacity} from 'react-native-gesture-handler';
 import {styles} from './styles';
 import {P} from '@src/components/ui-library/TextStyles';
 import useShuffledData from '@src/hooks/useShuffledData';
 import {colours} from '@src/styles/colours';
-
-type WrestleManiaQuestionType = {
-  id: string;
-  prompt: string;
-  wrestling: boolean;
-};
+import useGamesStore, {EmoOrNotType} from '@src/stores/gamesStore/gamesStore';
 
 export const WrestleMania = () => {
-  const wrestlemania: WrestleManiaQuestionType[] = gamesData.games.wrestlemania;
-  const data = useShuffledData<WrestleManiaQuestionType>(wrestlemania);
+  const {games: gamesData} = useGamesStore();
+  const wrestlemania: EmoOrNotType[] = gamesData.wrestlemania;
+  const data = useShuffledData<EmoOrNotType>(wrestlemania);
   const [pressed, setPressed] = useState<Array<boolean>>(
     new Array(wrestlemania.length).fill(false),
   );
   const {trueGreen, falseRed} = colours;
 
-  const renderItem = ({
-    item,
-    index,
-  }: {
-    item: WrestleManiaQuestionType;
-    index: number;
-  }) => {
+  const renderItem = ({item, index}: {item: EmoOrNotType; index: number}) => {
     const text = StyleSheet.create({
       strike: {
         textDecorationLine: pressed[index] ? 'line-through' : 'none',
@@ -46,7 +35,7 @@ export const WrestleMania = () => {
             newPressed[index] = !newPressed[index];
             setPressed(newPressed);
           }}>
-          <P style={text.strike}>{item.prompt}</P>
+          <P style={text.strike}>{item.name}</P>
         </TouchableOpacity>
       </View>
     );

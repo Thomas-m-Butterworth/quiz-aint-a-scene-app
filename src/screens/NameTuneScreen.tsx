@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
 import SoundButton from '@src/components/SoundButton';
-import gamesData from '@assets/api/nmitb-games.json';
-import {FlatList, SafeAreaView, View} from 'react-native';
+import {FlatList, SafeAreaView, Text, View} from 'react-native';
 import {TextInput} from 'react-native-gesture-handler';
 import {styles} from './styles';
-import {H, P} from '@src/components/ui-library/TextStyles';
+import {P} from '@src/components/ui-library/TextStyles';
 import useShuffledData from '@src/hooks/useShuffledData';
+import useGamesStore from '@src/stores/gamesStore/gamesStore';
 
 type TuneType = {
   id: string;
@@ -16,7 +16,8 @@ type TuneType = {
 };
 
 export const NameTuneScreen = () => {
-  const tune: TuneType[] = gamesData.games.nameThatTune;
+  const {games: gamesData} = useGamesStore();
+  const tune: TuneType[] = gamesData.nameThatTune;
   const data = useShuffledData(tune);
   const [durations, setDurations] = useState<Array<number>>(
     new Array(tune.length).fill(30),
@@ -38,11 +39,9 @@ export const NameTuneScreen = () => {
         />
         <View style={styles.tuneDetails}>
           <P>{item.song}</P>
-          <P>{item.artist}</P>
+          <P variant="caption">{item.artist}</P>
         </View>
-        <H variant="h5" style={styles.tuneLength}>
-          {item.length}
-        </H>
+        <Text style={styles.tuneLength}>{item.length}</Text>
         <TextInput
           style={styles.tuneInput}
           value={durations[index] !== 0 ? String(durations[index]) : ''}

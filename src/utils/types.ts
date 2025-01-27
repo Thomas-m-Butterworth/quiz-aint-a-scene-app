@@ -10,6 +10,7 @@ export type RootStackParamList = {
   WhatsAppAge: {name: string; gameScreen?: ReactNode};
   WrestlingMania: {name: string; gameScreen?: ReactNode};
   WeirdAlSkank: {name: string; gameScreen?: ReactNode};
+  SuperNintemo: {name: string; gameScreen?: ReactNode};
 };
 export type TechStackParamList = {
   Playlist: {name: string};
@@ -45,16 +46,3 @@ export type GameScreenProps = StackScreenProps<RootStackParamList> & {
   gameScreen?: ReactNode;
 };
 export type TechScreenProps = StackScreenProps<TechStackParamList>;
-
-export type MultiChoiceQuestionType = {
-  id: string;
-  asker?: string;
-  question: string;
-  answers: {
-    a: string;
-    b: string;
-    c: string;
-    d: string;
-  };
-  correct: string;
-};

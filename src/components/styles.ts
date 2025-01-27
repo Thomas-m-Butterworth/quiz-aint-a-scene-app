@@ -1,9 +1,23 @@
+import {colours} from '@src/styles/colours';
+import {typescale} from '@src/styles/typography';
 import {StyleSheet} from 'react-native';
 
 export const styles = StyleSheet.create({
   scoreCardContainer: {
     flexDirection: 'row',
-    maxHeight: 50,
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    height: 60,
+  },
+  scoreText: {
+    color: colours.quizDark,
+    fontSize: typescale.p,
+  },
+  timerNormal: {
+    color: colours.quizDark,
+  },
+  timerWarning: {
+    color: colours.falseRed,
   },
   individualScoreContainer: {
     flexDirection: 'row',
@@ -28,9 +42,12 @@ export const styles = StyleSheet.create({
   },
   timer: {
     flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
     marginRight: 21,
+    color: colours.quizDark,
+    alignItems: 'center',
+  },
+  teamIcon: {
+    height: 50,
   },
 });
 
@@ -42,6 +59,7 @@ export const getScoreCardStyle = (side: 'left' | 'right') => {
       marginRight: side === 'right' ? 0 : 13,
       maxHeight: 50,
       justifyContent: 'space-between',
+      alignItems: 'center',
     },
   });
 };

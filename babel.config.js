@@ -12,9 +12,11 @@ module.exports = {
           '@utils': './src/utils',
           '@navigators': './src/navigators',
           '@assets': './assets',
+          '@stores': './src/stores',
         },
       },
     ],
+    'module:react-native-dotenv',
     'react-native-reanimated/plugin',
   ],
 };

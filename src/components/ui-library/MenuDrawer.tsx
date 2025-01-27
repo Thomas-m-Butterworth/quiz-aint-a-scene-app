@@ -7,7 +7,7 @@ import {styles} from '@src/screens/styles';
 import {RootStackParamList} from '@src/utils/types';
 import {View} from 'react-native';
 
-type DrawerNavProp = DrawerNavigationProp<RootStackParamList>;
+export type DrawerNavProp = DrawerNavigationProp<RootStackParamList>;
 
 export const MenuIcon = () => {
   const navigation = useNavigation<DrawerNavProp>();

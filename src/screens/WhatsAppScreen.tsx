@@ -6,11 +6,11 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
-import gamesData from '@assets/api/nmitb-games.json';
 import {styles} from './styles';
 import {P} from '@src/components/ui-library/TextStyles';
 import useShuffledData from '@src/hooks/useShuffledData';
 import {colours} from '@src/styles/colours';
+import useGamesStore from '@src/stores/gamesStore/gamesStore';
 
 type WhatsAppQuestionType = {
   id: string;
@@ -22,7 +22,8 @@ type WhatsAppQuestionType = {
 };
 
 export const WhatsAppScreen = () => {
-  const whatsapp: WhatsAppQuestionType[] = gamesData.games.whatsappAge;
+  const {games: gamesData} = useGamesStore();
+  const whatsapp: WhatsAppQuestionType[] = gamesData.whatsappAge;
   const data = useShuffledData<WhatsAppQuestionType>(whatsapp);
   const [pressed, setPressed] = useState<Array<boolean>>(
     new Array(whatsapp.length).fill(false),

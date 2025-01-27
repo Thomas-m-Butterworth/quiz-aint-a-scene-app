@@ -8,10 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* quizAintTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* quizAintTests.m */; };
-		0168042796B8A1D201539B06 /* libPods-quizAint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F26F5371AF5E82B4EFF57ED0 /* libPods-quizAint.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		46E3EB682BAFD27D00FFBAC4 /* fullerton.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB572BAFD27D00FFBAC4 /* fullerton.mp3 */; };
+		46E3EB692BAFD27D00FFBAC4 /* stupidkid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB582BAFD27D00FFBAC4 /* stupidkid.mp3 */; };
+		46E3EB6A2BAFD27D00FFBAC4 /* alison.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB592BAFD27D00FFBAC4 /* alison.mp3 */; };
+		46E3EB6B2BAFD27D00FFBAC4 /* metalheads.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB5A2BAFD27D00FFBAC4 /* metalheads.mp3 */; };
+		46E3EB6C2BAFD27D00FFBAC4 /* srj.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB5B2BAFD27D00FFBAC4 /* srj.mp3 */; };
+		46E3EB6D2BAFD27D00FFBAC4 /* bouncing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB5C2BAFD27D00FFBAC4 /* bouncing.mp3 */; };
+		46E3EB6E2BAFD27D00FFBAC4 /* over.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB5D2BAFD27D00FFBAC4 /* over.mp3 */; };
+		46E3EB6F2BAFD27D00FFBAC4 /* enemy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB5E2BAFD27D00FFBAC4 /* enemy.mp3 */; };
+		46E3EB702BAFD27D00FFBAC4 /* jump.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB5F2BAFD27D00FFBAC4 /* jump.mp3 */; };
+		46E3EB712BAFD27D00FFBAC4 /* analogboy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB602BAFD27D00FFBAC4 /* analogboy.mp3 */; };
+		46E3EB722BAFD27D00FFBAC4 /* girlfriend.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB612BAFD27D00FFBAC4 /* girlfriend.mp3 */; };
+		46E3EB732BAFD27D00FFBAC4 /* sheena.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB622BAFD27D00FFBAC4 /* sheena.mp3 */; };
+		46E3EB742BAFD27D00FFBAC4 /* dominant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB632BAFD27D00FFBAC4 /* dominant.mp3 */; };
+		46E3EB752BAFD27D00FFBAC4 /* year3000.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB642BAFD27D00FFBAC4 /* year3000.mp3 */; };
+		46E3EB762BAFD27D00FFBAC4 /* bedroom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB652BAFD27D00FFBAC4 /* bedroom.mp3 */; };
+		46E3EB772BAFD27D00FFBAC4 /* alone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB662BAFD27D00FFBAC4 /* alone.mp3 */; };
+		46E3EB782BAFD27D00FFBAC4 /* reigns.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB672BAFD27D00FFBAC4 /* reigns.mp3 */; };
+		46E3EB7A2BAFD87600FFBAC4 /* city.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB792BAFD87600FFBAC4 /* city.mp3 */; };
+		46E3EB892BB2661300FFBAC4 /* letters.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB7B2BB2661200FFBAC4 /* letters.mp3 */; };
+		46E3EB8A2BB2661300FFBAC4 /* friendover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB7C2BB2661200FFBAC4 /* friendover.mp3 */; };
+		46E3EB8B2BB2661300FFBAC4 /* fox.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB7D2BB2661200FFBAC4 /* fox.mp3 */; };
+		46E3EB8C2BB2661300FFBAC4 /* ordinary.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB7E2BB2661200FFBAC4 /* ordinary.mp3 */; };
+		46E3EB8D2BB2661300FFBAC4 /* peeling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB7F2BB2661200FFBAC4 /* peeling.mp3 */; };
+		46E3EB8E2BB2661300FFBAC4 /* standing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB802BB2661200FFBAC4 /* standing.mp3 */; };
+		46E3EB8F2BB2661300FFBAC4 /* chance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB812BB2661200FFBAC4 /* chance.mp3 */; };
+		46E3EB902BB2661300FFBAC4 /* eye.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB822BB2661300FFBAC4 /* eye.mp3 */; };
+		46E3EB912BB2661300FFBAC4 /* losing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB832BB2661300FFBAC4 /* losing.mp3 */; };
+		46E3EB922BB2661300FFBAC4 /* best.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB842BB2661300FFBAC4 /* best.mp3 */; };
+		46E3EB932BB2661300FFBAC4 /* elocution.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB852BB2661300FFBAC4 /* elocution.mp3 */; };
+		46E3EB942BB2661300FFBAC4 /* mable.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB862BB2661300FFBAC4 /* mable.mp3 */; };
+		46E3EB952BB2661300FFBAC4 /* eyes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB872BB2661300FFBAC4 /* eyes.mp3 */; };
+		46E3EB962BB2661300FFBAC4 /* snuff.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46E3EB882BB2661300FFBAC4 /* snuff.mp3 */; };
 		46F631E12B9C21E30095A13D /* holiday.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46F631D52B9C21E30095A13D /* holiday.mp3 */; };
 		46F631E22B9C21E30095A13D /* sorry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46F631D62B9C21E30095A13D /* sorry.mp3 */; };
 		46F631E32B9C21E30095A13D /* grey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46F631D72B9C21E30095A13D /* grey.mp3 */; };
@@ -25,7 +56,8 @@
 		46F631EB2B9C21E30095A13D /* cute.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46F631DF2B9C21E30095A13D /* cute.mp3 */; };
 		46F631EC2B9C21E30095A13D /* take.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46F631E02B9C21E30095A13D /* take.mp3 */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		9B9F5D6ACAD51E2387C4F8A2 /* libPods-quizAint-quizAintTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 524D5C922E1DDE9E016A7583 /* libPods-quizAint-quizAintTests.a */; };
+		A03D7E97094B139CCA6BF37D /* libPods-quizAint-quizAintTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77DE4F198231CC6812D97DA5 /* libPods-quizAint-quizAintTests.a */; };
+		A1618D057F0E0CDA0C3A9120 /* libPods-quizAint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1E73B7BF6D6FCDD56B00C4 /* libPods-quizAint.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,13 +74,46 @@
 		00E356EE1AD99517003FC87E /* quizAintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quizAintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* quizAintTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = quizAintTests.m; sourceTree = "<group>"; };
-		07B80C15359ABAADDDD6F418 /* Pods-quizAint-quizAintTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quizAint-quizAintTests.release.xcconfig"; path = "Target Support Files/Pods-quizAint-quizAintTests/Pods-quizAint-quizAintTests.release.xcconfig"; sourceTree = "<group>"; };
+		1231E6A9FB80F7C97583C053 /* Pods-quizAint-quizAintTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quizAint-quizAintTests.debug.xcconfig"; path = "Target Support Files/Pods-quizAint-quizAintTests/Pods-quizAint-quizAintTests.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* quizAint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quizAint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = quizAint/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = quizAint/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = quizAint/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = quizAint/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = quizAint/main.m; sourceTree = "<group>"; };
+		38A12380DCAB3E8633DD4A35 /* Pods-quizAint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quizAint.debug.xcconfig"; path = "Target Support Files/Pods-quizAint/Pods-quizAint.debug.xcconfig"; sourceTree = "<group>"; };
+		46E3EB572BAFD27D00FFBAC4 /* fullerton.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = fullerton.mp3; path = ../android/app/src/main/res/raw/fullerton.mp3; sourceTree = "<group>"; };
+		46E3EB582BAFD27D00FFBAC4 /* stupidkid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = stupidkid.mp3; path = ../android/app/src/main/res/raw/stupidkid.mp3; sourceTree = "<group>"; };
+		46E3EB592BAFD27D00FFBAC4 /* alison.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alison.mp3; path = ../android/app/src/main/res/raw/alison.mp3; sourceTree = "<group>"; };
+		46E3EB5A2BAFD27D00FFBAC4 /* metalheads.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = metalheads.mp3; path = ../android/app/src/main/res/raw/metalheads.mp3; sourceTree = "<group>"; };
+		46E3EB5B2BAFD27D00FFBAC4 /* srj.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = srj.mp3; path = ../android/app/src/main/res/raw/srj.mp3; sourceTree = "<group>"; };
+		46E3EB5C2BAFD27D00FFBAC4 /* bouncing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bouncing.mp3; path = ../android/app/src/main/res/raw/bouncing.mp3; sourceTree = "<group>"; };
+		46E3EB5D2BAFD27D00FFBAC4 /* over.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = over.mp3; path = ../android/app/src/main/res/raw/over.mp3; sourceTree = "<group>"; };
+		46E3EB5E2BAFD27D00FFBAC4 /* enemy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = enemy.mp3; path = ../android/app/src/main/res/raw/enemy.mp3; sourceTree = "<group>"; };
+		46E3EB5F2BAFD27D00FFBAC4 /* jump.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = jump.mp3; path = ../android/app/src/main/res/raw/jump.mp3; sourceTree = "<group>"; };
+		46E3EB602BAFD27D00FFBAC4 /* analogboy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = analogboy.mp3; path = ../android/app/src/main/res/raw/analogboy.mp3; sourceTree = "<group>"; };
+		46E3EB612BAFD27D00FFBAC4 /* girlfriend.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = girlfriend.mp3; path = ../android/app/src/main/res/raw/girlfriend.mp3; sourceTree = "<group>"; };
+		46E3EB622BAFD27D00FFBAC4 /* sheena.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sheena.mp3; path = ../android/app/src/main/res/raw/sheena.mp3; sourceTree = "<group>"; };
+		46E3EB632BAFD27D00FFBAC4 /* dominant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = dominant.mp3; path = ../android/app/src/main/res/raw/dominant.mp3; sourceTree = "<group>"; };
+		46E3EB642BAFD27D00FFBAC4 /* year3000.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = year3000.mp3; path = ../android/app/src/main/res/raw/year3000.mp3; sourceTree = "<group>"; };
+		46E3EB652BAFD27D00FFBAC4 /* bedroom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bedroom.mp3; path = ../android/app/src/main/res/raw/bedroom.mp3; sourceTree = "<group>"; };
+		46E3EB662BAFD27D00FFBAC4 /* alone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alone.mp3; path = ../android/app/src/main/res/raw/alone.mp3; sourceTree = "<group>"; };
+		46E3EB672BAFD27D00FFBAC4 /* reigns.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = reigns.mp3; path = ../android/app/src/main/res/raw/reigns.mp3; sourceTree = "<group>"; };
+		46E3EB792BAFD87600FFBAC4 /* city.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = city.mp3; path = ../android/app/src/main/res/raw/city.mp3; sourceTree = "<group>"; };
+		46E3EB7B2BB2661200FFBAC4 /* letters.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = letters.mp3; path = ../android/app/src/main/res/raw/letters.mp3; sourceTree = "<group>"; };
+		46E3EB7C2BB2661200FFBAC4 /* friendover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = friendover.mp3; path = ../android/app/src/main/res/raw/friendover.mp3; sourceTree = "<group>"; };
+		46E3EB7D2BB2661200FFBAC4 /* fox.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = fox.mp3; path = ../android/app/src/main/res/raw/fox.mp3; sourceTree = "<group>"; };
+		46E3EB7E2BB2661200FFBAC4 /* ordinary.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ordinary.mp3; path = ../android/app/src/main/res/raw/ordinary.mp3; sourceTree = "<group>"; };
+		46E3EB7F2BB2661200FFBAC4 /* peeling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = peeling.mp3; path = ../android/app/src/main/res/raw/peeling.mp3; sourceTree = "<group>"; };
+		46E3EB802BB2661200FFBAC4 /* standing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = standing.mp3; path = ../android/app/src/main/res/raw/standing.mp3; sourceTree = "<group>"; };
+		46E3EB812BB2661200FFBAC4 /* chance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = chance.mp3; path = ../android/app/src/main/res/raw/chance.mp3; sourceTree = "<group>"; };
+		46E3EB822BB2661300FFBAC4 /* eye.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = eye.mp3; path = ../android/app/src/main/res/raw/eye.mp3; sourceTree = "<group>"; };
+		46E3EB832BB2661300FFBAC4 /* losing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = losing.mp3; path = ../android/app/src/main/res/raw/losing.mp3; sourceTree = "<group>"; };
+		46E3EB842BB2661300FFBAC4 /* best.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = best.mp3; path = ../android/app/src/main/res/raw/best.mp3; sourceTree = "<group>"; };
+		46E3EB852BB2661300FFBAC4 /* elocution.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = elocution.mp3; path = ../android/app/src/main/res/raw/elocution.mp3; sourceTree = "<group>"; };
+		46E3EB862BB2661300FFBAC4 /* mable.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = mable.mp3; path = ../android/app/src/main/res/raw/mable.mp3; sourceTree = "<group>"; };
+		46E3EB872BB2661300FFBAC4 /* eyes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = eyes.mp3; path = ../android/app/src/main/res/raw/eyes.mp3; sourceTree = "<group>"; };
+		46E3EB882BB2661300FFBAC4 /* snuff.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = snuff.mp3; path = ../android/app/src/main/res/raw/snuff.mp3; sourceTree = "<group>"; };
 		46F631D52B9C21E30095A13D /* holiday.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = holiday.mp3; path = ../../../Desktop/songs/holiday.mp3; sourceTree = "<group>"; };
 		46F631D62B9C21E30095A13D /* sorry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sorry.mp3; path = ../../../Desktop/songs/sorry.mp3; sourceTree = "<group>"; };
 		46F631D72B9C21E30095A13D /* grey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = grey.mp3; path = ../../../Desktop/songs/grey.mp3; sourceTree = "<group>"; };
@@ -61,13 +126,12 @@
 		46F631DE2B9C21E30095A13D /* maria.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = maria.mp3; path = ../../../Desktop/songs/maria.mp3; sourceTree = "<group>"; };
 		46F631DF2B9C21E30095A13D /* cute.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cute.mp3; path = ../../../Desktop/songs/cute.mp3; sourceTree = "<group>"; };
 		46F631E02B9C21E30095A13D /* take.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = take.mp3; path = ../../../Desktop/songs/take.mp3; sourceTree = "<group>"; };
-		524D5C922E1DDE9E016A7583 /* libPods-quizAint-quizAintTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-quizAint-quizAintTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		54A34A651C74C886F8E3C223 /* Pods-quizAint-quizAintTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quizAint-quizAintTests.debug.xcconfig"; path = "Target Support Files/Pods-quizAint-quizAintTests/Pods-quizAint-quizAintTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7F5025E1B376D56E0E6EA54F /* Pods-quizAint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quizAint.release.xcconfig"; path = "Target Support Files/Pods-quizAint/Pods-quizAint.release.xcconfig"; sourceTree = "<group>"; };
+		77DE4F198231CC6812D97DA5 /* libPods-quizAint-quizAintTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-quizAint-quizAintTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = quizAint/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8C0024ADB240C47D8A94524C /* Pods-quizAint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quizAint.debug.xcconfig"; path = "Target Support Files/Pods-quizAint/Pods-quizAint.debug.xcconfig"; sourceTree = "<group>"; };
+		8E8FDD8FB877081AB8FC5D7A /* Pods-quizAint-quizAintTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quizAint-quizAintTests.release.xcconfig"; path = "Target Support Files/Pods-quizAint-quizAintTests/Pods-quizAint-quizAintTests.release.xcconfig"; sourceTree = "<group>"; };
+		AE1E73B7BF6D6FCDD56B00C4 /* libPods-quizAint.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-quizAint.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4801A3092E556ADE7071261 /* Pods-quizAint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quizAint.release.xcconfig"; path = "Target Support Files/Pods-quizAint/Pods-quizAint.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F26F5371AF5E82B4EFF57ED0 /* libPods-quizAint.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-quizAint.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B9F5D6ACAD51E2387C4F8A2 /* libPods-quizAint-quizAintTests.a in Frameworks */,
+				A03D7E97094B139CCA6BF37D /* libPods-quizAint-quizAintTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0168042796B8A1D201539B06 /* libPods-quizAint.a in Frameworks */,
+				A1618D057F0E0CDA0C3A9120 /* libPods-quizAint.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,8 +188,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				F26F5371AF5E82B4EFF57ED0 /* libPods-quizAint.a */,
-				524D5C922E1DDE9E016A7583 /* libPods-quizAint-quizAintTests.a */,
+				AE1E73B7BF6D6FCDD56B00C4 /* libPods-quizAint.a */,
+				77DE4F198231CC6812D97DA5 /* libPods-quizAint-quizAintTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,6 +204,38 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				46E3EB842BB2661300FFBAC4 /* best.mp3 */,
+				46E3EB812BB2661200FFBAC4 /* chance.mp3 */,
+				46E3EB852BB2661300FFBAC4 /* elocution.mp3 */,
+				46E3EB822BB2661300FFBAC4 /* eye.mp3 */,
+				46E3EB872BB2661300FFBAC4 /* eyes.mp3 */,
+				46E3EB7D2BB2661200FFBAC4 /* fox.mp3 */,
+				46E3EB7C2BB2661200FFBAC4 /* friendover.mp3 */,
+				46E3EB7B2BB2661200FFBAC4 /* letters.mp3 */,
+				46E3EB832BB2661300FFBAC4 /* losing.mp3 */,
+				46E3EB862BB2661300FFBAC4 /* mable.mp3 */,
+				46E3EB7E2BB2661200FFBAC4 /* ordinary.mp3 */,
+				46E3EB7F2BB2661200FFBAC4 /* peeling.mp3 */,
+				46E3EB882BB2661300FFBAC4 /* snuff.mp3 */,
+				46E3EB802BB2661200FFBAC4 /* standing.mp3 */,
+				46E3EB792BAFD87600FFBAC4 /* city.mp3 */,
+				46E3EB592BAFD27D00FFBAC4 /* alison.mp3 */,
+				46E3EB662BAFD27D00FFBAC4 /* alone.mp3 */,
+				46E3EB602BAFD27D00FFBAC4 /* analogboy.mp3 */,
+				46E3EB652BAFD27D00FFBAC4 /* bedroom.mp3 */,
+				46E3EB5C2BAFD27D00FFBAC4 /* bouncing.mp3 */,
+				46E3EB632BAFD27D00FFBAC4 /* dominant.mp3 */,
+				46E3EB5E2BAFD27D00FFBAC4 /* enemy.mp3 */,
+				46E3EB572BAFD27D00FFBAC4 /* fullerton.mp3 */,
+				46E3EB612BAFD27D00FFBAC4 /* girlfriend.mp3 */,
+				46E3EB5F2BAFD27D00FFBAC4 /* jump.mp3 */,
+				46E3EB5A2BAFD27D00FFBAC4 /* metalheads.mp3 */,
+				46E3EB5D2BAFD27D00FFBAC4 /* over.mp3 */,
+				46E3EB672BAFD27D00FFBAC4 /* reigns.mp3 */,
+				46E3EB622BAFD27D00FFBAC4 /* sheena.mp3 */,
+				46E3EB5B2BAFD27D00FFBAC4 /* srj.mp3 */,
+				46E3EB582BAFD27D00FFBAC4 /* stupidkid.mp3 */,
+				46E3EB642BAFD27D00FFBAC4 /* year3000.mp3 */,
 				46F631D52B9C21E30095A13D /* holiday.mp3 */,
 				46F631DE2B9C21E30095A13D /* maria.mp3 */,
 				46F631DF2B9C21E30095A13D /* cute.mp3 */,
@@ -176,10 +272,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8C0024ADB240C47D8A94524C /* Pods-quizAint.debug.xcconfig */,
-				7F5025E1B376D56E0E6EA54F /* Pods-quizAint.release.xcconfig */,
-				54A34A651C74C886F8E3C223 /* Pods-quizAint-quizAintTests.debug.xcconfig */,
-				07B80C15359ABAADDDD6F418 /* Pods-quizAint-quizAintTests.release.xcconfig */,
+				38A12380DCAB3E8633DD4A35 /* Pods-quizAint.debug.xcconfig */,
+				E4801A3092E556ADE7071261 /* Pods-quizAint.release.xcconfig */,
+				1231E6A9FB80F7C97583C053 /* Pods-quizAint-quizAintTests.debug.xcconfig */,
+				8E8FDD8FB877081AB8FC5D7A /* Pods-quizAint-quizAintTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -191,12 +287,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "quizAintTests" */;
 			buildPhases = (
-				DE540B0627229EBBE50BF236 /* [CP] Check Pods Manifest.lock */,
+				2095A81F28DD55353FB80DB2 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C0B9657EBE3EEC9BD8D86555 /* [CP] Embed Pods Frameworks */,
-				259962798657C830096A1F1A /* [CP] Copy Pods Resources */,
+				1BA84EA71A98755B75A745F8 /* [CP] Embed Pods Frameworks */,
+				AA7E0D56DFDB115580E99422 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,13 +308,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "quizAint" */;
 			buildPhases = (
-				9486CD6CBB01F88B663275D3 /* [CP] Check Pods Manifest.lock */,
+				D90447E0EDDB038E8C1A0AB6 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				4BAE839AABF482426FAC8549 /* [CP] Embed Pods Frameworks */,
-				ED2F36BDA27737D00FAB3D5E /* [CP] Copy Pods Resources */,
+				D8003BBD28E4A104316D4405 /* [CP] Embed Pods Frameworks */,
+				A946C11C4510B56DC99038C7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -277,20 +373,52 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46E3EB702BAFD27D00FFBAC4 /* jump.mp3 in Resources */,
+				46E3EB912BB2661300FFBAC4 /* losing.mp3 in Resources */,
 				46F631E72B9C21E30095A13D /* beating.mp3 in Resources */,
 				46F631E22B9C21E30095A13D /* sorry.mp3 in Resources */,
+				46E3EB6E2BAFD27D00FFBAC4 /* over.mp3 in Resources */,
+				46E3EB8E2BB2661300FFBAC4 /* standing.mp3 in Resources */,
+				46E3EB8A2BB2661300FFBAC4 /* friendover.mp3 in Resources */,
 				46F631EC2B9C21E30095A13D /* take.mp3 in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				46E3EB742BAFD27D00FFBAC4 /* dominant.mp3 in Resources */,
 				46F631E82B9C21E30095A13D /* accident.mp3 in Resources */,
+				46E3EB952BB2661300FFBAC4 /* eyes.mp3 in Resources */,
+				46E3EB712BAFD27D00FFBAC4 /* analogboy.mp3 in Resources */,
 				46F631E42B9C21E30095A13D /* swing.mp3 in Resources */,
+				46E3EB8D2BB2661300FFBAC4 /* peeling.mp3 in Resources */,
+				46E3EB922BB2661300FFBAC4 /* best.mp3 in Resources */,
+				46E3EB6F2BAFD27D00FFBAC4 /* enemy.mp3 in Resources */,
+				46E3EB6C2BAFD27D00FFBAC4 /* srj.mp3 in Resources */,
 				46F631E32B9C21E30095A13D /* grey.mp3 in Resources */,
+				46E3EB932BB2661300FFBAC4 /* elocution.mp3 in Resources */,
+				46E3EB682BAFD27D00FFBAC4 /* fullerton.mp3 in Resources */,
+				46E3EB6A2BAFD27D00FFBAC4 /* alison.mp3 in Resources */,
+				46E3EB8B2BB2661300FFBAC4 /* fox.mp3 in Resources */,
 				46F631E62B9C21E30095A13D /* underclass.mp3 in Resources */,
+				46E3EB6D2BAFD27D00FFBAC4 /* bouncing.mp3 in Resources */,
+				46E3EB942BB2661300FFBAC4 /* mable.mp3 in Resources */,
+				46E3EB732BAFD27D00FFBAC4 /* sheena.mp3 in Resources */,
+				46E3EB6B2BAFD27D00FFBAC4 /* metalheads.mp3 in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				46E3EB902BB2661300FFBAC4 /* eye.mp3 in Resources */,
+				46E3EB8F2BB2661300FFBAC4 /* chance.mp3 in Resources */,
+				46E3EB892BB2661300FFBAC4 /* letters.mp3 in Resources */,
+				46E3EB772BAFD27D00FFBAC4 /* alone.mp3 in Resources */,
 				46F631E12B9C21E30095A13D /* holiday.mp3 in Resources */,
 				46F631EA2B9C21E30095A13D /* maria.mp3 in Resources */,
+				46E3EB8C2BB2661300FFBAC4 /* ordinary.mp3 in Resources */,
+				46E3EB692BAFD27D00FFBAC4 /* stupidkid.mp3 in Resources */,
+				46E3EB962BB2661300FFBAC4 /* snuff.mp3 in Resources */,
 				46F631E92B9C21E30095A13D /* sugar.mp3 in Resources */,
 				46F631E52B9C21E30095A13D /* wayaway.mp3 in Resources */,
+				46E3EB722BAFD27D00FFBAC4 /* girlfriend.mp3 in Resources */,
+				46E3EB752BAFD27D00FFBAC4 /* year3000.mp3 in Resources */,
+				46E3EB782BAFD27D00FFBAC4 /* reigns.mp3 in Resources */,
 				46F631EB2B9C21E30095A13D /* cute.mp3 in Resources */,
+				46E3EB762BAFD27D00FFBAC4 /* bedroom.mp3 in Resources */,
+				46E3EB7A2BAFD87600FFBAC4 /* city.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,63 +441,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		259962798657C830096A1F1A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-quizAint-quizAintTests/Pods-quizAint-quizAintTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-quizAint-quizAintTests/Pods-quizAint-quizAintTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-quizAint-quizAintTests/Pods-quizAint-quizAintTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4BAE839AABF482426FAC8549 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-quizAint/Pods-quizAint-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-quizAint/Pods-quizAint-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-quizAint/Pods-quizAint-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9486CD6CBB01F88B663275D3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-quizAint-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C0B9657EBE3EEC9BD8D86555 /* [CP] Embed Pods Frameworks */ = {
+		1BA84EA71A98755B75A745F8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -386,7 +458,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-quizAint-quizAintTests/Pods-quizAint-quizAintTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DE540B0627229EBBE50BF236 /* [CP] Check Pods Manifest.lock */ = {
+		2095A81F28DD55353FB80DB2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -408,7 +480,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		ED2F36BDA27737D00FAB3D5E /* [CP] Copy Pods Resources */ = {
+		A946C11C4510B56DC99038C7 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -423,6 +495,62 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-quizAint/Pods-quizAint-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA7E0D56DFDB115580E99422 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-quizAint-quizAintTests/Pods-quizAint-quizAintTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-quizAint-quizAintTests/Pods-quizAint-quizAintTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-quizAint-quizAintTests/Pods-quizAint-quizAintTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8003BBD28E4A104316D4405 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-quizAint/Pods-quizAint-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-quizAint/Pods-quizAint-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-quizAint/Pods-quizAint-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D90447E0EDDB038E8C1A0AB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-quizAint-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -458,7 +586,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54A34A651C74C886F8E3C223 /* Pods-quizAint-quizAintTests.debug.xcconfig */;
+			baseConfigurationReference = 1231E6A9FB80F7C97583C053 /* Pods-quizAint-quizAintTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -485,7 +613,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07B80C15359ABAADDDD6F418 /* Pods-quizAint-quizAintTests.release.xcconfig */;
+			baseConfigurationReference = 8E8FDD8FB877081AB8FC5D7A /* Pods-quizAint-quizAintTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -509,11 +637,12 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C0024ADB240C47D8A94524C /* Pods-quizAint.debug.xcconfig */;
+			baseConfigurationReference = 38A12380DCAB3E8633DD4A35 /* Pods-quizAint.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3763H8Z4WY;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = quizAint/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -536,11 +665,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F5025E1B376D56E0E6EA54F /* Pods-quizAint.release.xcconfig */;
+			baseConfigurationReference = E4801A3092E556ADE7071261 /* Pods-quizAint.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3763H8Z4WY;
 				INFOPLIST_FILE = quizAint/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

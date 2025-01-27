@@ -8,9 +8,10 @@
       "@screens/*": ["src/screens/*"],
       "@utils/*": ["src/utils/*"],
       "@navigators/*": ["src/navigators/*"],
-      "@assets/*": ["assets/*"]
+      "@assets/*": ["assets/*"],
+      "@stores/*": ["src/stores/*"]
     }
   },
-  "include": ["src", "images.d.ts"],
+  "include": ["src", "images.d.ts", "declarations.d.ts"],
   "exclude": ["node_modules"]
 }

@@ -1,20 +1,10 @@
 import {create} from 'zustand';
+import {cloneDeep} from 'lodash';
+import {TimerState, defaultTimerState} from './types';
 
-type TimerState = {
-  seconds: number;
-  intervalId: NodeJS.Timeout | null;
-  startTimer: () => void;
-  pauseTimer: () => void;
-  reset: () => void;
-  countState: 'timing' | 'paused';
-};
-
-const secondsDefault = 3300;
-
-export const useTimerStore = create<TimerState>(set => ({
-  seconds: secondsDefault,
-  intervalId: null,
-  countState: 'paused',
+const useTimerStore = create<TimerState>(set => ({
+  ...cloneDeep(defaultTimerState),
+  setTimer: newSeconds => set({seconds: newSeconds}),
   startTimer: () =>
     set(store => {
       if (store.intervalId !== null) {
@@ -36,5 +26,7 @@ export const useTimerStore = create<TimerState>(set => ({
       }
       return {...store, countState: 'paused', intervalId: null};
     }),
-  reset: () => set({seconds: secondsDefault, intervalId: null}),
+  reset: () => set(defaultTimerState),
 }));
+
+export default useTimerStore;

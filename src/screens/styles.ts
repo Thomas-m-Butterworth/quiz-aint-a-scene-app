@@ -19,6 +19,7 @@ export const styles = StyleSheet.create({
     marginRight: 8,
     fontSize: typescale.h5,
     color: colours.quizDark,
+    textAlign: 'center',
   },
   tuneCard: {
     flexDirection: 'row',
@@ -37,11 +38,14 @@ export const styles = StyleSheet.create({
   },
   tuneLength: {
     marginRight: 8,
+    fontSize: typescale.p,
   },
   tuneButton: {
     paddingLeft: 13,
     paddingRight: 8,
     flexShrink: 1,
+    height: 25,
+    justifyContent: 'center',
   },
   answerContainer: {
     paddingVertical: 5,
@@ -60,5 +64,9 @@ export const styles = StyleSheet.create({
   },
   headerMenu: {
     marginLeft: 21,
+    alignItems: 'center',
+  },
+  headerPadding: {
+    marginBottom: 8,
   },
 });

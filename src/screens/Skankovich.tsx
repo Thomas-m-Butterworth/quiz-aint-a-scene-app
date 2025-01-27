@@ -1,28 +1,23 @@
 import React, {useState} from 'react';
 import {FlatList, SafeAreaView, StyleSheet, View} from 'react-native';
-import gamesData from '@assets/api/nmitb-games.json';
 import {TouchableOpacity} from 'react-native-gesture-handler';
-import {SkankovichQuestionType} from '@src/utils/types';
 import {styles} from './styles';
 import {P} from '@src/components/ui-library/TextStyles';
 import useShuffledData from '@src/hooks/useShuffledData';
 import {colours} from '@src/styles/colours';
+import useGamesStore from '@src/stores/gamesStore/gamesStore';
+import {EmoOrNotType} from '@src/stores/gamesStore/types';
 
 export const Skankovich = () => {
-  const skank: SkankovichQuestionType[] = gamesData.games.skankovich;
-  const data = useShuffledData<SkankovichQuestionType>(skank);
+  const {games: gamesData} = useGamesStore();
+  const skank: EmoOrNotType[] = gamesData.skankovich;
+  const data = useShuffledData<EmoOrNotType>(skank);
   const [pressed, setPressed] = useState<Array<boolean>>(
     new Array(skank.length).fill(false),
   );
   const {trueGreen, falseRed} = colours;
 
-  const renderItem = ({
-    item,
-    index,
-  }: {
-    item: SkankovichQuestionType;
-    index: number;
-  }) => {
+  const renderItem = ({item, index}: {item: EmoOrNotType; index: number}) => {
     const text = StyleSheet.create({
       strike: {
         textDecorationLine: pressed[index] ? 'line-through' : 'none',

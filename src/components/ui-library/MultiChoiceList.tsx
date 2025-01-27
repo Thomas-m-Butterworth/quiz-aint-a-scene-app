@@ -7,25 +7,26 @@ import {
   View,
 } from 'react-native';
 import {P} from '@src/components/ui-library/TextStyles';
-import gamesData from '@assets/api/nmitb-games.json';
 import useShuffledData from '@src/hooks/useShuffledData';
 import {colours} from '@src/styles/colours';
-import {MultiChoiceQuestionType} from '@src/utils/types';
 import {styles} from '@src/screens/styles';
+import useGamesStore from '@src/stores/gamesStore/gamesStore';
+import {MultipleChoiceType} from '@src/stores/gamesStore/types';
 
 export const MultiChoiceList = ({game}: {game: string}) => {
+  const {games: gamesData} = useGamesStore();
   let screenData;
   switch (game) {
     case 'emopinions':
-      screenData = gamesData.games.emopinions;
+      screenData = gamesData.emopinions;
       break;
     case 'bantz182':
-      screenData = gamesData.games.bantz182;
+      screenData = gamesData.bantz182;
       break;
     default:
-      screenData = gamesData.games.emopinions;
+      screenData = gamesData.emopinions;
   }
-  const data = useShuffledData<MultiChoiceQuestionType>(screenData);
+  const data = useShuffledData<MultipleChoiceType>(screenData);
   const [pressed, setPressed] = useState<Array<boolean>>(
     new Array(screenData.length).fill(false),
   );
@@ -35,7 +36,7 @@ export const MultiChoiceList = ({game}: {game: string}) => {
     item,
     index,
   }: {
-    item: MultiChoiceQuestionType;
+    item: MultipleChoiceType;
     index: number;
   }) => {
     const text = StyleSheet.create({
